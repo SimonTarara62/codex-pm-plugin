@@ -11,8 +11,9 @@ When it is not available, skills fall back to requesting manual input from the u
 | Category | Connected App (if available) | Fallback behavior |
 |---|---|---|
 | **Chat** | Slack, Microsoft Teams | Ask user: what was accomplished, blockers, decisions made, next steps |
-| **Project Tracker** | Linear, Asana, Jira, ClickUp, Monday.com | Ask user to describe roadmap items, ticket statuses, or priorities |
-| **Knowledge Base** | Notion, Confluence, Guru, Coda | Ask user to paste or upload relevant documents |
+| **Project Tracker** | Jira, Linear, Asana, ClickUp, Monday.com | Ask user to describe roadmap items, ticket statuses, or priorities |
+| **Knowledge Base** | Confluence, Notion, Guru, Coda | Ask user to paste or upload relevant documents |
+| **Calendar** | Google Calendar | Ask user for key dates, upcoming milestones, team availability, and upcoming meeting context |
 | **Design** | Figma, Sketch, Adobe XD | Ask user to share screenshots or describe designs in text |
 | **Product Analytics** | Amplitude, Pendo, Mixpanel, Heap | Ask user to paste metrics data (table, CSV, or prose description) |
 | **User Feedback** | Intercom, Productboard, Canny, UserVoice | Ask user to paste feedback excerpts or describe themes |
@@ -27,6 +28,11 @@ Every skill uses this two-branch pattern when referencing external tools:
 **Without connected tools**: Ask the user to [what to request manually].
   Accept any format: prose description, table, screenshot, or pasted text.
 ```
+
+## Notes on specific connectors
+
+- **Atlassian Rovo**: Connecting Rovo covers two categories at once — Jira maps to **Project Tracker** and Confluence maps to **Knowledge Base**. Skills will use both automatically.
+- **Google Calendar**: Calendar events may contain links to Google Drive documents (agendas, meeting notes, pre-read materials). When a calendar is connected, follow these links to retrieve additional context from Drive.
 
 ## Notes on specific skills
 

@@ -14,9 +14,11 @@ Update, create, or reprioritize a product roadmap.
 
 ### 1. Understand Current State
 
-**With a connected project tracker** (Linear/Asana/Jira/ClickUp): Pull current roadmap items with their statuses, assignees, and dates. Identify items that are overdue, at risk, or recently completed. Surface any items without clear owners or dates.
+**With a connected project tracker** (Jira/Linear/Asana/ClickUp): Pull current roadmap items with their statuses, assignees, and dates. Identify items that are overdue, at risk, or recently completed. Surface any items without clear owners or dates.
 
-**Without connected tools**: Ask the user to describe their current roadmap or paste/upload it. Accept any format: list, table, spreadsheet, screenshot, or prose description.
+**With a connected calendar** (Google Calendar): Check for hard-deadline events in the relevant timeframe — board reviews, launch announcements, external commitments, sprint milestones. Identify team vacation and unavailability periods for capacity planning. Cross-reference roadmap milestone dates with actual calendar events to surface conflicts or misalignments.
+
+**Without connected tools**: Ask the user to describe their current roadmap or paste/upload it. Accept any format: list, table, spreadsheet, screenshot, or prose description. Also ask: "Are there any hard deadline events (board meetings, launches, regulatory dates) or team vacations in the planning window I should factor in?"
 
 ### 2. Determine the Operation
 

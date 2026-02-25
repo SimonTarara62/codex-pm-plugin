@@ -34,7 +34,7 @@ Ask the user for the following. Be conversational — do not dump all questions 
 
 **With a connected project tracker** (Linear/Asana/Jira/ClickUp): Search for related tickets, epics, or features. Pull in any existing requirements or acceptance criteria. Identify dependencies on other work items.
 
-**Without connected tools**: Work entirely from what the user provides. Ask: "Are there any related tickets, prior specs, or design docs you can share?"
+**Without connected tools**: Work entirely from what the user provides. Ask: "Are there any related tickets, prior specs, or design docs you can share? And are there any hard calendar dates — sprint deadlines, review sessions, or launch windows — that should anchor the timeline?"
 
 **With a connected knowledge base** (Notion/Confluence): Search for related research documents, prior specs, or design docs. Pull in relevant user research findings.
 
@@ -43,6 +43,8 @@ Ask the user for the following. Be conversational — do not dump all questions 
 **With a connected design tool** (Figma/Sketch): Pull related mockups, wireframes, or design explorations.
 
 **Without connected tools**: Ask if there are any designs to share (screenshots or descriptions work fine).
+
+**With a connected calendar** (Google Calendar): Check for upcoming events that constrain the timeline — sprint planning sessions, design reviews, launch windows, dependency milestones. Use this to populate the "Timeline Considerations" section with concrete dates rather than estimates.
 
 ### 4. Generate the PRD
 

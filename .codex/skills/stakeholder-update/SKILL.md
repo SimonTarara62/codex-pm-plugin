@@ -40,11 +40,14 @@ Ask who the update is for:
 
 **With a connected knowledge base** (Notion/Confluence): Search for recent meeting notes and decision documents.
 
+**With a connected calendar** (Google Calendar): Pull upcoming stakeholder meetings and reviews for the next 2 weeks. Read event descriptions and agendas for context. Follow any Google Drive links in events (pre-read docs, meeting notes) to retrieve additional content. Use upcoming events to frame "what's coming next" and identify deadlines for the update.
+
 **Without connected tools**: Ask the user to provide:
 - What was accomplished since the last update
 - Current blockers or risks
 - Key decisions made or needed
 - What is coming next
+- Any upcoming stakeholder meetings or review dates to reference
 
 Accept any format — a quick list or bullet points is fine. You will structure it into the appropriate format.
 

@@ -31,7 +31,9 @@ The following domain knowledge activates automatically when you work on relevant
 ## Connected Tools
 
 When Connected Apps are available in Codex, use them to pull context automatically.
-When they are not available, ask the user to provide the relevant context.
+This includes calendar data — upcoming meetings, deadlines, event agendas, and linked
+Google Drive documents (meeting notes, pre-read materials) referenced in calendar events.
+When connected apps are not available, ask the user to provide the relevant context.
 Never ask the user to connect tools — just proceed with the information available.
 
 ## Output Conventions

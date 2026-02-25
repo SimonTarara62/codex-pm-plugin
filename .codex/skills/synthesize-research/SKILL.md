@@ -24,6 +24,8 @@ Accept research from any combination of:
 
 **With a connected meeting transcription tool** (Fireflies/Gong/Otter): Pull interview recordings, meeting summaries, and discussion notes.
 
+**With a connected calendar** (Google Calendar): Find recent and upcoming user research sessions, usability tests, and interview slots. Read event descriptions for study context and participant details. Follow any Google Drive links in events to retrieve session notes, recordings, or discussion guides stored in Drive.
+
 **Without connected tools**: Work entirely from pasted or uploaded content. Ask: "Please paste your research data — interview notes, survey responses, support tickets, or any format works."
 
 You can also use web search to supplement research with publicly available data (industry surveys, benchmark reports, competitor reviews).
